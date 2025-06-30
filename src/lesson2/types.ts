@@ -5,7 +5,7 @@
   type stringOrNumbers = string | number
   type stringOrNumberArray = (string | number)[]
 
-  type Guitarist = {
+  type Guitar = {
     name?: string, 
     active: boolean,
     albums: stringOrNumberArray //Type alias used instead of writing out types.
